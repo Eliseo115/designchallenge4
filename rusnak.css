@@ -1,0 +1,320 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: white;
+    font-family: 'Barlow', sans-serif;
+}
+
+li{
+    list-style-type: none;
+}
+
+a{ 
+    text-decoration: none;
+    color: inherit;
+    }
+
+.intro {
+    width: 100vw;
+    height: 100vh;
+    background-color: black;
+}
+.hero{
+    width:50vw;
+    height: 100vh;
+    margin-left: 25%;
+}
+/* ----------------End of Intro Section---------------- */
+
+.moodboard{
+    width: 100vw;
+    height: 113vh;
+    display: flex;
+}
+
+.moodboard_left {
+    width: 35vw;
+    height: 113vh;
+    background-color:black;
+}
+
+.keywords {
+    width:80% ;
+    height: ;
+    color: #00ffffff;
+    font-size: 50px;
+    margin: 0 auto;
+    margin-top: 40px;
+}
+
+.keyword {
+    margin: 0 auto;
+    padding: 5px;
+    background-color: black;
+}
+
+.moodboardTitle {
+    width: 80%;
+    margin: 10px auto 0 auto;
+    padding: 5px;
+    font-size:20px;
+    color:#00ffffff;
+    background-color: black;
+}
+
+.description {
+    width: 80%;
+    margin: 90px auto 0 auto;
+    font-size: 25px;
+    color:#00ffffff;
+    background-color: black;
+}
+/* ------------- End of Moodboard Left Side of Webpage------------- */
+
+.moodboard_right {
+    width: 65vw;
+    height: 113vh;
+    background-color: #bebebe;
+    display: flex;
+    justify-content: center;
+}   
+
+.leftImageColumn {
+        width: 300px;
+        height: 720px;
+        background-color: #bebebe;
+        display:flex;
+        flex-direction: column;
+        align-items: flex-end;
+}
+
+.grad_img {
+    width: 260px;
+    padding-top: 15px;
+    background-color:#bebebe
+}
+
+.poe_img {
+    width: 220px;
+    padding: 15px 0px 15px 0px;
+    background-color: #bebebe;
+}
+
+.brain_img {
+    width: 230px;
+}
+
+.rightImageColumn {
+    width: 300px;
+    height: 720px;
+    background-color: #bebebe;
+    display:flex;
+    flex-direction: column;  
+    justify-content: center;
+}   
+
+.grad_silhouette {
+    width: 300px;
+    padding-left: 15px;
+    padding-bottom: 15px;
+    background-color:#bebebe;
+}
+
+.neon_orbit {
+    width: 280px;
+    padding-left: 15px;
+    background-color:#bebebe;
+}
+/* ----------------End  of Entire Moodboard Section---------- */
+
+.styleGuide {
+   width: 100vw;
+   height: 100vh;
+   display: flex;
+}
+
+.styleGuide_Left {
+    width: 35vw;
+    height: 100vh;
+    display: flex;
+}
+
+.text_left {
+    width: 45%;
+    height: 100vh;
+    background-color: white;
+}
+
+.color_Palette {
+    font-family: 'Roboto', sans-serif;
+    font-size: 105%;
+    margin-top: 50px;
+    margin-left: 30px;
+    font-weight: bold; 
+    color: #1a1a1a; 
+}
+
+.good_paragraph {
+    font-family: 'Roboto', sans-serif;    
+    color: #1a1a1a;
+    margin-top: 20px;
+    margin-left: 30px;
+    font-size: 90%;
+}
+
+.img_right {
+width: 65%;
+height: 100vh;
+padding-top:25px;
+background-color: white;   
+}
+
+.dot {
+    height: 90px;
+    width: 90px;
+    margin: 30px 0px 0px 40px;
+    border-radius: 50%;
+    display: inline-block;
+  }
+
+.aqua {
+      background-color: #00ffffff;
+  }
+
+.grey {
+      background-color: grey;
+  }
+
+.black {
+      background-color: black;
+  }
+
+.hex_codes {
+      width: 150px;
+      margin-top: 30px;
+      padding-left: 10px;
+      font-size: 15px;
+      color: black;
+      display: flex;
+      align-items: center;
+      }
+
+.aqua_section {
+        background-color:white;
+        display: flex;  
+    }
+
+.grey_section {
+    background-color: white;
+    display: flex;
+}
+
+.black_section{
+    background-color: white;
+    display: flex;
+}
+
+.unacceptable_title {
+    font-family: 'Roboto', sans-serif;
+    font-size: 105%;
+    font-weight: bold;
+    color: #1a1a1a;
+    padding-top: 40px;
+    margin-left: 55px;
+}
+
+.unacceptable_paragraph {
+    font-family: 'Roboto', sans-serif;
+    color: #1a1a1a;
+    font-size: 90%;
+    padding-top: 10px;
+    margin-left: 55px;
+    margin-right: 10px;
+}
+
+
+/* ------------End of styleGuide_Left side------------------- */
+
+
+.styleGuide_Right {
+    width: 65vw;
+    height: 100vh;
+    background-color:#4c4c4c;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.topTwo_logos {
+    background-color:#4c4c4c;
+    margin-left: 100px;
+    padding-bottom: 10px;
+    display: flex;
+}
+
+.bottomTwo_logos {
+    background-color:#4c4c4c;
+    margin-right: 100px;
+    padding-top: 20px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.logo_mix {
+    width: 25%;
+    border: 1px solid black;
+}
+/* ------------End of styleGuide_Right Section---- */
+
+.print_materials {
+    width: 100vw;
+    height: 100vh;
+    background-color: #28bdbd;
+}
+
+.letterhead_img {
+    width: 31%;
+    margin-top: 30px;
+    margin-left: 20%;
+}
+
+.businessCard_front {
+   width: 21.6%;
+   margin-bottom: 350px;
+   margin-left: 10px;
+}
+
+.businessCard_back {
+    width: 20%;
+    margin-bottom: 350px; 
+}
+
+.container {
+    margin-left: 20px;
+}
+
+.print_approval {
+    height: 40vh;
+    font-size: 20px;
+    border: 1px solid black;
+    background-color: gainsboro;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.text-box {
+    background-color: gainsboro;
+}
+
+form {
+    background-color: gainsboro;
+}
+
+.container {
+    background-color: gainsboro;
+}
+
+input {
+    background-color: gainsboro;
+}
