@@ -269,13 +269,13 @@ background-color: white;
 
 .print_materials {
     width: 100vw;
-    height: 100vh;
+    height: 105vh;
     background-color: #28bdbd;
 }
 
 .letterhead_img {
     width: 31%;
-    margin-top: 30px;
+    margin-top: 20px;
     margin-left: 20%;
 }
 
@@ -317,4 +317,18 @@ form {
 
 input {
     background-color: gainsboro;
+}
+/* --------End of Approval Box CSS---------*/
+
+.thankYouCards {
+    height: 60vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.thanks {
+    width: 24rem;
+
 }
